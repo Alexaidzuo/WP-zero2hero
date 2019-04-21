@@ -1,0 +1,33 @@
+/*
+  Theme Name: zero2hero
+  Theme URI: http://example.com/
+  Author: Aleksandar Ćirić
+  Author URI: http://www.idizajner.com
+  Description: Ovo je custom template napravljen kao lični projekat na kursu "My Career from hero to zero" za prezentaciju završnog rada, April 2019. Radi usavršavanja, template je prebačen na WordPress. Centar za omladinski rad je obezbedio potrebne informacije i fotografije koje se nalaze na sajtu.
+  Version: 1.0.0
+  License: GNU General Public License v2 or later
+  License URI: http://www.gnu.org/licenses/gpl-2.0.html
+  Text Domain: zero2hero
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+
+--------------------------------------------------------------*/
+@import "variables/variables";
+@import "mixins/mixins-master";
+/*--------------------------------------------------------------
+# Normalize - Global CSS
+--------------------------------------------------------------*/
+@import "normalize";
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+@import "navigation/navigation";
+/*--------------------------------------------------------------
+# Helper Classes
+--------------------------------------------------------------*/
+@import "helper/helper";

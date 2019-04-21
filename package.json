@@ -1,0 +1,21 @@
+{
+  "name": "wordpress",
+  "version": "1.0.0",
+  "description": "WordPress Theme Development Automation with Gulp",
+  "author": "Author Name",
+  "devDependencies": {
+    "browser-sync": "^2.12.8",
+    "es6-promise": "^3.2.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rtlcss": "^1.0.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-util": "^3.0.7"
+  },
+  "dependencies": {
+    "gulp-concat": "^2.6.1"
+  }
+}

@@ -1,0 +1,152 @@
+nav {
+    ul {
+        display: table-cell;
+        vertical-align: middle;
+        list-style-type: none;
+    }
+
+    a {
+        color: #fff;
+        font-size: 3.6em;
+        padding: 5px 10px;
+
+        &:hover {
+            color: #e6a644;
+        }
+    }
+}
+
+nav ul li.current_page_item a {
+    color: #ffac0c!important;
+}
+
+nav ul li.menu-item-type-custom a {
+    color: #fff!important;
+
+    &:hover {
+        color: #e6a644!important;
+    }
+}
+
+.navigation-menu {
+    display: table;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #000;
+    @include linearGradient(#0e2d43, #19aabc);
+    z-index: 2;
+}
+
+nav ul {
+    display: none;
+    list-style-type: none;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0;
+}
+
+.opening ul {
+    display: table-cell;
+}
+
+// Hamburger menu
+.menu-toggle {
+    position: absolute;
+    padding: 3em;
+    top: 1em;
+    right: .5em;
+    cursor: pointer;
+}
+
+.hamburger {
+    content: '';
+    display: block;
+    background: #EBEBD3;
+    height: 3px;
+    width: 2.7em;
+    border-radius: 3px;
+    -webkit-transition: all ease-in-out 350ms;
+    transition: all ease-in-out 350ms;
+
+    &::before,
+    &::after {
+        content: '';
+        display: block;
+        background: #EBEBD3;
+        height: 3px;
+        width: 2.7em;
+        border-radius: 3px;
+        -webkit-transition: all ease-in-out 350ms;
+        transition: all ease-in-out 350ms;
+    }
+
+    &::before {
+        -webkit-transform: translateY(-7px);
+        transform: translateY(-7px);
+    }
+
+    &::after {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+    }
+}
+
+.open .hamburger {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+
+    &::before {
+        display: none;
+    }
+
+    &::after {
+        -webkit-transform: translateY(0px) rotate(-90deg);
+        transform: translateY(0px) rotate(-90deg);
+    }
+}
+
+nav ul.opening {
+    display: table-cell;
+}
+
+@media only screen and (min-width: 992px) {
+    .nav {
+        display: block;
+        position: initial;
+        width: auto;
+        height: auto;
+        background: inherit;
+        float: right;
+        padding: 12px 0px;
+
+        li {
+            float: left;
+        }
+
+        a {
+            color: #fff;
+            margin-left: 20px;
+            font-size: 1.2em;
+            font-weight: 400;
+        }
+    }
+
+    .burger,
+    .close,
+    .menu-toggle {
+        display: none;
+    }
+    // Hamburger menu
+    .hamburger {
+        display: none;
+    }
+
+    nav ul {
+        display: inline;
+        font-size: 1.7em;
+    }
+}

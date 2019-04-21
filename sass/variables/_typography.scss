@@ -1,0 +1,30 @@
+// Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i');
+
+// Global font - Change 20px to 2em
+$font__global_size: 62.5%;
+
+// Font
+$font__family: 'Nunito', sans-serif;
+$font__size: 1.8em;
+$font__color: #525f7f;
+$font__weight: 300;
+
+// Paragraph
+$p__size:1.8em;
+
+// H1, H2, H3, H4, H5 ,H6
+$h1__size: 5.2em;
+$h2__size: 4em;
+$h3__size: 3em;
+$h4__size: 2.2em;
+$h5__size: 2.1em;
+$h6__size: 2em;
+
+// Page title Blog, Single post, Gallery
+$category__color: #6f7c82;
+$category__weight: 300;
+
+// Pagination
+$pagination__color: #292e31;
+$pagination__colorActive: #e6a644;
