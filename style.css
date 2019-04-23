@@ -44,9 +44,6 @@ section.program,
 section.about-us {
   padding-bottom: 70px; }
 
-section.single-post {
-  padding: 0; }
-
 .container {
   max-width: 1040px;
   padding: 0px 15px;
@@ -750,11 +747,15 @@ footer.footer-single.footer.global .container {
   .info img:hover {
     transform: scale(1.1); } }
 
-section.single-post {
+section.single-post,
+section.single-post-with-gallery {
+  max-width: 878px;
+  margin: 0 auto;
   border: 1px solid #eaecee;
-  background: #fff;
-  margin: 0 auto 100px;
-  max-width: 878px; }
+  background: #fff; }
+
+section.single-post {
+  margin: 0 auto 100px; }
 
 /* Single page Blog post */
 .wp-post-image {

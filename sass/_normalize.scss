@@ -27,10 +27,6 @@ section.about-us {
   padding-bottom: 70px;
 }
 
-section.single-post {
-  padding: 0;
-}
-
 .container {
   max-width: 1040px;
   padding: 0px 15px;
@@ -1057,11 +1053,16 @@ footer.footer-single.footer.global .container {
   }
 }
 
-section.single-post {
+section.single-post,
+section.single-post-with-gallery {
+  max-width: 878px;
+  margin: 0 auto;
   border: 1px solid #eaecee;
   background: #fff;
+}
+
+section.single-post {
   margin: 0 auto 100px;
-  max-width: 878px;
 }
 
 /* Single page Blog post */

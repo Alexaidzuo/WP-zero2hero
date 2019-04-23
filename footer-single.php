@@ -10,7 +10,7 @@
  */
 ?>
 <footer class="footer-single footer global " id="contact">
-  <div class="container">
+  <div class="container clearfix">
     <h2>Da li ste spremni za nove izazove?</h2>
     <a href="<?php the_field( 'google_form_for_register', 'option' ); ?>" class="btn <?php // mailchimp ( value )
 $mailchimp_array = get_field( 'mailchimp', 'option' );

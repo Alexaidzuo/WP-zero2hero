@@ -105,7 +105,7 @@ $galleryCategory = array (
 	'post_status' => 'publish',
 	'posts_per_page' => '1',
 	'orderby' => 'date',
-	'order' => 'desc',
+	'order' => 'asc',
 	);
 	$query = new WP_Query( $galleryCategory );
 	if ( $query->have_posts() ) {
