@@ -980,7 +980,7 @@ img.orgImage-1 {
 .footer {
   background: #f6f9fc;
   position: relative;
-  padding-bottom: 64.4px;
+  padding-bottom: 24.4px;
 
   &.global {
     background: transparent;
@@ -1028,6 +1028,15 @@ img.orgImage-1 {
   transition: all 0.3s;
 }
 
+.copyright {
+  padding-top: 50px;
+  text-align: center;
+
+  & p {
+    font-size: 12px;
+  }
+}
+
 // Single page footer
 footer.footer-single.footer.global,
 footer.footer-single.footer.global .container {
@@ -1066,6 +1075,10 @@ section.single-post {
 }
 
 // Single post title h2
+.single-post article {
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
 article header {
   margin: 0 auto 25px;
 

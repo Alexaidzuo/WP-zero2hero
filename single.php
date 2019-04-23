@@ -20,4 +20,4 @@ endwhile; // End of the loop.
 ?>
 <?php
 get_sidebar();
-get_footer('single');
+get_footer('copyright');

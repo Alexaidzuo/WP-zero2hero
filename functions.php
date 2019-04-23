@@ -178,6 +178,12 @@ remove_action('wp_head', 'rest_output_link_wp_head', 10);
 remove_action('wp_head', 'wp_oembed_add_discovery_links', 10);
 remove_action('template_redirect', 'rest_output_link_header', 11, 0);
 
+// Disable Gutenberg editor for posts
+add_filter('use_block_editor_for_post', '__return_false', 10);
+
+// Disable Gutenberg editor for post types
+add_filter('use_block_editor_for_post_type', '__return_false', 10);
+
 function remove_thumbnail_dimensions( $html, $post_id, $post_image_id ) {
     $html = preg_replace( '/(width|height)=\"\d*\"\s/', "", $html );
     return $html;
