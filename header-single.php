@@ -9,8 +9,6 @@
   <meta name="twitter:site" content="@Zero2hero">
   <meta name="twitter:title" content="My Career From Zero To Hero">
   <meta name="twitter:description" content="Nudimo ti mogućnost da razviješ veštine veb dizajna, front-end programiranja i prenosive veštine uz pomoć stručnog tima.">
-  <meta name="twitter:image" content="<?php echo esc_url( home_url() ); ?>/wp-content/themes/zero2hero/preview.png">
-  <meta property="og:image" content="<?php echo esc_url( home_url() ); ?>/wp-content/themes/zero2hero/preview.png" itemprop="thumbnailUrl">
   <meta property="og:title" content="My Career From Zero To Hero">
   <meta property="og:url" content="<?php echo esc_url( home_url() ); ?>">
   <meta property="og:site_name" content="Zero2hero">
