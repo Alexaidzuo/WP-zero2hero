@@ -751,6 +751,7 @@ section.single-post,
 section.single-post-with-gallery {
   max-width: 878px;
   margin: 0 auto;
+  padding: 0;
   border: 1px solid #eaecee;
   background: #fff; }
 

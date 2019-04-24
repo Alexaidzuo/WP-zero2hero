@@ -52,7 +52,15 @@ endif; ?>
 	<?php gulp_wordpress_entry_footer(); ?>
 </footer><!-- .entry-footer -->
 </article><!-- #post-## -->
+</section>
 <section class="gallery">
+<div id="bg-gallery">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+  <h2>Galerija</h2>
 <?php $post_object = get_field( 'find_a_gallery' ); ?>
 <?php if ( $post_object ): ?>
 <?php $post = $post_object; ?>
@@ -76,7 +84,6 @@ endif; ?>
 </section>
 <?php wp_reset_postdata(); ?>
 <?php endif; ?>
-</section>
 </section>
 <?php
 get_sidebar();
